@@ -1,4 +1,18 @@
-# schedule-buddy
+# Schedule-Buddy
+This project was part of the GNG 4120 Technology Entrepreneurship for Engineers and Computer Scientists course at UOttawa. The following people were also part of this small project: 
+-MohammedNadeemPasha
+-jdtechman
+-rmmeister Radman
+
+Schedule-Buddy was part of a startup concept. The app we developped allows students to generate a weekley view of their workload, including classes, labs, study time and job shifts. The project was built around Node.js/Reactjs. The docker container was used to deploy the app. 
+
+Programming languages used in the project: 
+-JavaScript
+-Python
+-HTML
+-CSS
+-Dockerfile
+
 
 # Running Docker Compose
 
