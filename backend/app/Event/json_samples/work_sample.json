@@ -1,0 +1,45 @@
+{
+    "job_name":"Cashier at Loblaws",
+    "frequency": 
+        {
+            "monday": {
+                "am_working" : true,
+                "start-time" : 1300,
+                "end-time": 1500
+            },
+            "tuesday": {
+                "am_working" : false,
+                "start-time" : 0,
+                "end-time": 0
+            },
+            "wednesday": {
+                "am_working" : true,
+                "start-time" : 1300,
+                "end-time": 1500
+            },
+            "thursday": {
+                "am_working" : true,
+                "start-time" : 1300,
+                "end-time": 1500
+            },
+            "friday": {
+                "am_working" : true,
+                "start-time" : 1300,
+                "end-time": 1500
+            },
+            "saturday": {
+                "am_working" : true,
+                "start-time" : 800,
+                "end-time": 1700
+            },
+            "sunday": {
+                "am_working" : true,
+                "start-time" : 800,
+                "end-time": 1700
+            }
+
+
+        }
+
+
+}

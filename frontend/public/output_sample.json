@@ -1,0 +1,160 @@
+{
+    "have": {
+      "courses":
+        {
+          "course_name": ["EED5120","EED5121"], 
+          "estimated_time_needed":[3,3],
+          "location": 
+          {
+            "building": ["SITE","CRX"],
+            "room":["ABC-12","ABD-11"]
+          },
+          "frequency": [[true,false,true,false,false],[true,false,true,false,true]],
+          "time": [["1800","1200"],["1400","1600"]]  
+        },
+      "labs":{
+        "lab_name": ["EED5120L","EED5123L"],
+        "location": 
+        {
+          "building": ["SITE","CRX"],
+          "room":["ABC-12","ABD-11"]
+        },
+        "frequency": [[true,false,true,false,false],[true,false,true,false,true]],
+        "time": [["1800","1200"],["1400","1600"]] 
+      },
+      "work":{
+        "job_position": ["Cashier at Loblaws","Cashier at Walmart"],
+        "location": ["557 Mntreal Road","South keys"],
+        "frequency": [[true,false,true,false,false,true,false],[true,false,true,false,true,false,false]],
+        "time": [["1800","1200"],["1400","1600"]] 
+      }
+    }
+
+  
+}    
+
+
+
+// With automatic time
+{
+  "have": {
+    "courses": {
+      "course_name": [
+        "Math"
+      ],
+      "estimated_time_needed": [
+        [
+          4
+        ]
+      ],
+      "location": {
+        "building": [
+          "CRX"
+        ],
+        "room": [
+          "2100"
+        ]
+      },
+      "frequency": [
+        [
+          false,
+          true,
+          false,
+          true,
+          false
+        ]
+      ],
+      "time": [
+        [
+          "10:30",
+          "11:50"
+        ]
+      ],
+      "colour": [
+        [
+          "lightcoral"
+        ]
+      ],
+      "automatictime": [
+        [
+          false
+        ]
+      ]
+    },
+    "labs": {
+      "lab_name": [
+        "Physics"
+      ],
+      "location": {
+        "building": [
+          "Crx"
+        ],
+        "room": [
+          "5555"
+        ]
+      },
+      "frequency": [
+        [
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      ],
+      "time": [
+        [
+          "09:30",
+          "15:30"
+        ]
+      ],
+      "colour": [
+        [
+          "bisque"
+        ]
+      ]
+    },
+    "work": {
+      "job_position": [
+        "Janitor"
+      ],
+      "location": [
+        "Ottawa"
+      ],
+      "frequency": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      ],
+      "time": [
+        [
+          "08:30",
+          "23:30"
+        ]
+      ],
+      "colour": [
+        [
+          "lemonchiffon"
+        ]
+      ]
+    },
+    "extras": {
+      "waketime": [
+        [
+          "08:00"
+        ]
+      ],
+      "sleeptime": [
+        [
+          "23:00"
+        ]
+      ]
+    }
+  }
+}

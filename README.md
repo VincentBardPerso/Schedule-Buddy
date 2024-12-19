@@ -1,2 +1,1 @@
-# Schedule-Buddy
-React project from 2022
+# schedule-buddy

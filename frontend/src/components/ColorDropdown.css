@@ -1,0 +1,39 @@
+.color-dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  
+  .color-dropdown-label {
+    margin-right: 10px;
+  }
+  
+  .color-dropdown-select {
+    padding: 5px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .color-dropdown-select option {
+    color: black;
+  }
+  
+  .color-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  

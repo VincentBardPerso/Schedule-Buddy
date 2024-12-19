@@ -1,0 +1,11 @@
+fastapi==0.89.1
+pydantic>=1.8.0,<2.0.0
+uvicorn>=0.15.0,<0.16.0
+httptools==0.1.1
+uvloop==0.17.0
+pillow==9.4.0
+orjson==3.8.5
+matplotlib==3.3.0
+namedlist==1.8
+PyYAML>=5.0
+ics==0.7.2

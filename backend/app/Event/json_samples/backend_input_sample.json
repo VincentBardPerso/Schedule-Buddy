@@ -1,0 +1,192 @@
+{
+    "have": {
+        "courses": [
+            {
+                "course_name":"EED5120",
+                "location": {
+                    "building": "SITE",
+                    "room": "ABC-12"
+                },
+                "frequency": 
+                    {
+                        "monday": {
+                            "class_enabled" : true,
+                            "start-time" : 1300,
+                            "end-time": 1500
+                        },
+                        "tuesday": {
+                            "class_enabled" : false,
+                            "start-time" : 0,
+                            "end-time": 0
+                        },
+                        "wednesday": {
+                            "class_enabled" : true,
+                            "start-time" : 1330,
+                            "end-time": 1500
+                        },
+                        "thursday": {
+                            "class_enabled" : true,
+                            "start-time" : 1300,
+                            "end-time": 1500
+                        },
+                        "friday": {
+                            "class_enabled" : true,
+                            "start-time" : 1300,
+                            "end-time": 1500
+                        }
+            
+            
+                    }
+            
+            
+            },
+            {
+                "course_name":"EED5121",
+                "location": {
+                    "building": "SITE",
+                    "room": "ABC-12"
+                },
+                "frequency": 
+                    {
+                        "monday": {
+                            "class_enabled" : true,
+                            "start-time" : 1600,
+                            "end-time": 1800
+                        },
+                        "tuesday": {
+                            "class_enabled" : false,
+                            "start-time" : 0,
+                            "end-time": 0
+                        },
+                        "wednesday": {
+                            "class_enabled" : true,
+                            "start-time" : 1600,
+                            "end-time": 1800
+                        },
+                        "thursday": {
+                            "class_enabled" : true,
+                            "start-time" : 1600,
+                            "end-time": 1800
+                        },
+                        "friday": {
+                            "class_enabled" : true,
+                            "start-time" : 1600,
+                            "end-time": 1800
+                        }
+            
+            
+                    }
+            
+            
+            }
+        ],
+        "labs":[
+            {
+                "lab_name":"EED5120L",
+                "location": {
+                    "building": "SITE",
+                    "room": "ABC-12"
+                },
+                "frequency": 
+                    {
+                        "monday": {
+                            "class_enabled" : false,
+                            "start-time" : 1300,
+                            "end-time": 1500
+                        },
+                        "tuesday": {
+                            "class_enabled" : false,
+                            "start-time" : 0,
+                            "end-time": 0
+                        },
+                        "wednesday": {
+                            "class_enabled" : false,
+                            "start-time" : 1300,
+                            "end-time": 1500
+                        },
+                        "thursday": {
+                            "class_enabled" : false,
+                            "start-time" : 1300,
+                            "end-time": 1500
+                        },
+                        "friday": {
+                            "class_enabled" : true,
+                            "start-time" : 1800,
+                            "end-time": 1900
+                        }
+            
+            
+                    }
+            
+            
+            }
+        ],
+        "work": [
+            {
+                "job_name":"Cashier at Loblaws",
+                "location": "557 Mntreal Road",
+                "frequency": 
+                    {
+                        "monday": {
+                            "am_working" : true,
+                            "start-time" : 2000,
+                            "end-time": 2200
+                        },
+                        "tuesday": {
+                            "am_working" : false,
+                            "start-time" : 0,
+                            "end-time": 0
+                        },
+                        "wednesday": {
+                            "am_working" : true,
+                            "start-time" : 2000,
+                            "end-time": 2200
+                        },
+                        "thursday": {
+                            "am_working" : true,
+                            "start-time" : 2000,
+                            "end-time": 2200
+                        },
+                        "friday": {
+                            "am_working" : true,
+                            "start-time" : 2000,
+                            "end-time": 2200
+                        },
+                        "saturday": {
+                            "am_working" : true,
+                            "start-time" : 800,
+                            "end-time": 1700
+                        },
+                        "sunday": {
+                            "am_working" : true,
+                            "start-time" : 800,
+                            "end-time": 1700
+                        }
+            
+            
+                    }
+            
+            
+            }
+        ]
+    },
+
+    "want": {
+        "options": {
+            "Max time per block" : 30
+        },
+        "courses": [
+            {
+                "course_name": "EED5120",
+                "estimated_time_needed": 6
+            },
+            { "course_name": "ELG5301",
+            "estimated_time_needed": 2.5
+            }
+
+        ]
+        
+        
+
+    }
+}

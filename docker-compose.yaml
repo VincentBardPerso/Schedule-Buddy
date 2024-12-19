@@ -1,0 +1,39 @@
+
+services:
+        backend:
+                build:
+                        dockerfile: Dockerfile
+                        context: ./backend
+                ports:
+                        - '8000:8000'
+                networks:
+                        my-network-name:
+                                aliases:
+                                        - backend          
+        frontend:
+                build:
+                        dockerfile: Dockerfile
+                        context: ./frontend
+                ports:
+                        - '3000:3000'
+                networks:
+                        my-network-name:
+                                aliases:
+                                        - frontend          
+        nginx-proxy:
+                depends_on:
+                        - frontend
+                        - backend
+                image: nginx:alpine
+                volumes: 
+                        - ./default.conf:/etc/nginx/conf.d/default.conf
+                networks:
+                        my-network-name:
+                                aliases:
+                                        - proxy-name
+                ports:
+                        - 80:80
+                        - 443:443
+
+networks:
+  my-network-name:

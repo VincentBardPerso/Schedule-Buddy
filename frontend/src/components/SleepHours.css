@@ -1,0 +1,44 @@
+.SleepTracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  
+  .SleepTracker label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+  }
+  
+  .SleepTracker label span {
+    display: block;
+    width: 80px;
+    text-align: center;
+    margin-right: 16px;
+    font-weight: bold;
+  }
+  
+  .SleepTracker input[type="time"] {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .SleepTracker input[type="time"]:focus {
+    outline: none;
+    border-color: #4d90fe;
+  }
+  
+  .SleepTracker p {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+  }

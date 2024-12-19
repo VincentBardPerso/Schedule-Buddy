@@ -1,0 +1,39 @@
+{
+    "lab_name":"EED5120",
+    "location": {
+        "building": "SITE",
+        "room": "ABC-12"
+    },
+    "frequency": 
+        {
+            "monday": {
+                "class_enabled" : true,
+                "start-time" : 1300,
+                "end-time": 1500
+            },
+            "tuesday": {
+                "class_enabled" : false,
+                "start-time" : 0,
+                "end-time": 0
+            },
+            "wednesday": {
+                "class_enabled" : false,
+                "start-time" : 1300,
+                "end-time": 1500
+            },
+            "thursday": {
+                "class_enabled" : false,
+                "start-time" : 1300,
+                "end-time": 1500
+            },
+            "friday": {
+                "class_enabled" : true,
+                "start-time" : 1300,
+                "end-time": 1500
+            }
+
+
+        }
+
+
+}

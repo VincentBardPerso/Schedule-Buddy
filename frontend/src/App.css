@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(0, 194, 255, 1), rgba(212, 224, 235, 1), rgba(45, 106, 181, 1));
+  /* background-image: url(./components/Logo/magicpattern-confetti-1676404320157.png); */
+}
+
+.course-container {
+  display:list-item;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.course-container button {
+  margin-bottom: 60px;
+  
+}
+
+
